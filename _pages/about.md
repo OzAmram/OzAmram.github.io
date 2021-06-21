@@ -2,23 +2,33 @@
 layout: about
 title: about
 permalink: /
-description: <a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.
+description: PhD Student in Experimental Particle Physics at Johns Hopkins
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: prof_pic.jpeg
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Office: 421, Bloomberg Center for Physics and Astronomy</p>
+    <p>Email: oz.amram[at]gmail.com</p>
 
-news: true  # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+news: false  # includes a list of news items
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com){:target="\_blank"}. You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I'm Oz, a graduate student in Physics at Johns Hopkins University. I'm a member
+of the CMS collaboration at the Large Hadron Collider. 
+The CMS experiment tries to understand what the fundamental building blocks of
+the universe are and how they interact. 
+My research has focused on model independent searches for new physics using
+machine learning methods as well as precision electroweak measurements. 
+I have also worked various aspects of the CMS pixel detector, including the 
+modeling of its radiation damage, novel reconstruction algorithms, and 
+studies of designs for its phase-2 upgrade. 
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I also regularly write for [ParticleBites](https://www.particlebites.com/), which summarizes recent particle physics papers at the undergraduate
+level. You can read some of my recent posts
+[here](https://www.particlebites.com/?author=30). 
+I also (occasionally) post to my non-physics related blog
+[EthicalAnalysis](https://www.ethicalanalysis.blog).
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/){:target="\_blank"} and [Academicons](https://jpswalsh.github.io/academicons/){:target="\_blank"}, like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
