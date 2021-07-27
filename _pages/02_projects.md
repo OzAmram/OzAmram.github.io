@@ -6,6 +6,7 @@ description: Some things I have worked on.
 nav: true
 display_categories: 
 horizontal: false
+order: 2
 ---
 <div class="projects">
   {% if site.enable_project_categories and page.display_categories %}

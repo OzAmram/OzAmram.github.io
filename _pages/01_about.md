@@ -3,6 +3,7 @@ layout: about
 title: about
 permalink: /
 description: PhD Student in Experimental Particle Physics at Johns Hopkins
+order: 1
 
 profile:
   align: right
