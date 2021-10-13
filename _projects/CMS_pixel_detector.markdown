@@ -25,13 +25,14 @@ damage.
 
 I have been involved in various aspects of the offline reconstruction of the
 pixel detector including:
-    - Developing novel reconstruction techniques suitable for high levels of radiation damage
-    - Producing calibrations based on the simulations of the radiation damage using [Pixelav](https://inspirehep.net/literature/772925)
-    - Testing candidate designs for the pixel detector's Phase-2 upgrade
-    - Maintainence and improvement of the pixel reconstruction code within the [CMS software framework](http://cms-sw.github.io/)
 
-Starting in September 2021, I will serve as co-convener of the Pixel Offline
-calibration and reconstruction sub-group.
+- Developing novel reconstruction techniques suitable for high levels of radiation damage
+- Producing calibrations based on the simulations of the radiation damage using [Pixelav](https://inspirehep.net/literature/772925)
+- Testing candidate designs for the pixel detector's Phase-2 upgrade
+- Maintainence and improvement of the pixel reconstruction code within the [CMS software framework](http://cms-sw.github.io/)
+
+
+Since September 2021, I have been serving as co-convener of the Pixel Offline calibration and reconstruction sub-group within CMS.
 
 You can read more about the CMS pixel detector [here](https://arxiv.org/abs/2012.14304).
    
