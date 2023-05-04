@@ -40,5 +40,5 @@ level. You can read some of my recent posts
 [here](https://www.particlebites.com/?author=30). 
 
 I also (occasionally) post to my non-physics related blog
-[EthicalAnalysis](https://www.ethicalanalysis.blog).
+[EthicalAnalysis](https://ethicalanalysisblog.wordpress.com/).
 
