@@ -9,7 +9,7 @@ profile:
   align: right
   image: anapolis_rock_cropped.jpeg
   address: >
-    <p>Office: Somewhere (?), Wilson Hall</p>
+    <p>Office: 11th floor, Wilson Hall</p>
     <p>Email: oz.amram[at]gmail.com</p>
 
 news: false  # includes a list of news items
@@ -23,8 +23,9 @@ The CMS experiment tries to understand what the fundamental building blocks of
 the universe are and how they interact. 
 
 
-My research focus is on model independent searches for new physics using
-machine learning methods as well as precision electroweak measurements. 
+My research focus is on model independent searches for new physics 
+and fast simulations of complex calorimeters using machine learning methods. 
+During my Phd I also worked on precision electroweak measurements. 
 I have also worked various aspects of the CMS pixel detector, including the 
 modeling of its radiation damage, novel reconstruction algorithms, and 
 studies of designs for its phase-2 upgrade. 
