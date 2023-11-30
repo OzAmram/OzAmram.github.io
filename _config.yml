@@ -38,7 +38,7 @@ repo_trophies:
 # will use title and url fields
 # Take a look to https://github.com/jekyll/jekyll-feed for more customization
 
-rss_icon: true
+rss_icon: false
 
 # -----------------------------------------------------------------------------
 # Layout
@@ -116,9 +116,9 @@ bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: Oz Amram's Personal Page # your blog must have a name for it to show up in the nav bar
-blog_nav_title: webpage # your blog must have a title for it to be displayed in the nav bar
-blog_description:  Oz Amram's Personal Page
+blog_name:  # your blog must have a name for it to show up in the nav bar
+blog_nav_title:  # your blog must have a title for it to be displayed in the nav bar
+blog_description: 
 permalink: 
 
 # Pagination

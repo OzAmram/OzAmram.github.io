@@ -4,6 +4,9 @@ title: Parity Violation
 description: Measuring the Drell-Yan forward-backward asymmetry with CMS
 img: /assets/img/rose_mirror_parity_violation.jpg
 importance: 2
+category: work
+giscus_comments: true
+related_publications: CMS:2022uul
 ---
 <div class="row justify-content-sm-center">
     <div style="text-align: center">
@@ -128,6 +131,6 @@ Because all of the measurements have very small systematic uncertainties, the pr
 This means that the sensitivity to heavy new heavy gauge bosons ( Z' s) will over take that of the
 direct bump-hunt searches in the future.
 
-For more details, you can check out the recently released
-[PAS](https://cds.cern.ch/record/2783928) (the full paper will be out soon).
+For more details, you can check out the
+[paper](https://arxiv.org/abs/2202.12327).
 CMS members can checkout the CADI line [SMP-21-002](https://cms.cern.ch/iCMS/analysisadmin/cadilines?line=SMP-21-002&tp=an&id=2415&ancode=SMP-21-002).

@@ -4,6 +4,8 @@ title: CMS Pixel Detector
 description: Calibration and Reconstruction
 img: /assets/img/CMS_highpileup.png
 importance: 2
+category: work
+giscus_comments: true
 ---
 <div class="row">
     <div style="text-align: center">
@@ -32,7 +34,7 @@ pixel detector including:
 - Maintainence and improvement of the pixel reconstruction code within the [CMS software framework](http://cms-sw.github.io/)
 
 
-Since September 2021, I have been serving as co-convener of the Pixel Offline calibration and reconstruction sub-group within CMS.
+From September 2021-22, I served as co-convener of the Pixel Offline calibration and reconstruction sub-group within CMS.
 
 You can read more about the CMS pixel detector [here](https://arxiv.org/abs/2012.14304).
    
