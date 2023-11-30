@@ -41,4 +41,3 @@ level. You can read some of my recent posts
 
 I also (occasionally) post to my non-physics related blog
 [EthicalAnalysis](https://ethicalanalysisblog.wordpress.com/).
-
