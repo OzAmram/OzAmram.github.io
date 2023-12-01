@@ -5,7 +5,7 @@ description: Measuring the Drell-Yan forward-backward asymmetry with CMS
 img: /assets/img/rose_mirror_parity_violation.jpg
 importance: 2
 category: work
-giscus_comments: true
+giscus_comments: false
 related_publications: CMS:2022uul
 ---
 <div class="row justify-content-sm-center">
