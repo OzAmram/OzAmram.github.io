@@ -1,6 +1,9 @@
             {%- if site.email -%}
             <a href="mailto:{{ site.email | encode_email }}" title="email"><i class="fas fa-envelope"></i></a>
             {% endif %}
+            {%- if site.inspire_id -%}
+            <a href="https://inspirehep.net/authors/{{site.inspire_id}}/" title="Inspire"><i class="ai ai-inspire"></i></a>
+            {% endif %}
             {%- if site.telegram_username -%}
             <a href="https://telegram.me/{{ site.telegram_username }}" title="telegram"><i class="fab fa-telegram"></i></a>
             {% endif %}

@@ -82,6 +82,10 @@
         {%- capture link -%}https://orcid.org/{{ site.orcid_id }}{%- endcapture -%}
         {%- assign sameaslinks = sameaslinks | push: link -%}
     {%- endif -%}
+    {%- if site.inspire_id -%}
+        {%- capture link -%}https://inspirehep.net/authors/{{ site.inspire_id }}{%- endcapture -%}
+        {%- assign sameaslinks = sameaslinks | push: link -%}
+    {%- endif -%}
     {%- if site.scholar_userid -%}
         {%- capture link -%}https://scholar.google.com/citations?user={{ site.scholar_userid }}{%- endcapture -%}
         {%- assign sameaslinks = sameaslinks | push: link -%}
@@ -214,9 +218,11 @@
         {%- capture link -%}https://www.zotero.org/{{ site.zotero_username }}{%- endcapture -%}
         {%- assign sameaslinks = sameaslinks | push: link -%}
     {%- endif -%}
+
     {%- if sameaslinks != blank -%}
         {%- assign sameaslinks = sameaslinks | split: "" -%}
     {%- endif -%}
+
 
     <script type="application/ld+json">
     {
