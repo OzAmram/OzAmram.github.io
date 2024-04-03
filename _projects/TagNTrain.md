@@ -2,7 +2,7 @@
 layout: page
 title: Tag N' Train
 description: A new method for Anomaly detection at the LHC
-img: /assets/img/TNT_cwola.jpg
+img: /assets/img/TNT_cwola_wide.png
 importance: 1
 category: work
 giscus_comments: false
