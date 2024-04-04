@@ -1,7 +1,7 @@
 ---
 layout: page
-title: CMS Anomaly Search
-description: First anomaly detection analysis in CMS
+title: CMS Dijet Resonance Anomaly Search
+description: The first application of anomaly detection in CMS
 img: /assets/img/CASE_evt_display.png
 importance: 1
 category: work
@@ -14,7 +14,7 @@ related_publications: CMS:CASE
     </div>
 </div>
 <div class="caption">
-An 'anomalous' CMS event.
+An 'anomalous' CMS event selected by our unsupervised AI algorithm. 
 </div>
 
 LHC experiments spend a lot of time searching through their data for signs of
@@ -121,8 +121,8 @@ We also verified that for realistic amounts of signal present in the data,
 these anomaly detection methods could greatly enhance the discovery potential
 as compared to standard approaches. 
 In many cases, a standard approach would have seen only very slight hints of
-a new particle ($\sim 2 \sigma$) while multiple anomaly detection methods would
-have been able to claim a discovery ($> 5 \sigma$)!
+a new particle ($$\sim 2 \sigma$$) while multiple anomaly detection methods would
+have been able to claim a discovery ($$> 5 \sigma$$)!
 Our testing also showed that there was no one 'optimal' anomaly detection
 method; they each performed better or worse on different signals. 
 
@@ -164,9 +164,9 @@ than the traditional method (which is usually only be sensitive to that single p
 After spending many months agonizing about limits, I came to prefer a different
 method of quantifying the sensitivity of the anomaly detection methods. 
 This metric computed how many signal events (aka cross section) would be needed to claim
-a discovery ($5 \sigma$) from each method. 
-We showed that the anomaly detection methods were able to claim a discovery
-usually with a factor of ~3-4 fewer signal events
+a discovery ($$5 \sigma$$) from each method. 
+We showed that for several signals the anomaly detection methods were able to claim a discovery
+with a factor of ~3-4 fewer signal events
 (Tag N' Train even reached up to a factor of 7 for one signal). 
 I think this metric highlights the spirit of anomaly detection: Its about
 increasing our chances of discovery! Not setting limits. 
@@ -177,28 +177,28 @@ We developed a lot of new techniques and know-how which should make future anoma
 searches a bit easier. 
 This project isn't quite finished yet, stay tuned for future papers detailing the jet substructure calibration, ML details of the methods we used
 as well as the final version of this physics results paper. 
-But once all of that is wrapped up, I am excited for new anomaly detection
-searches in CMS's future, building on what we developed here!
+But once all of that is wrapped up, I am excited to build on we developed here
+for new anomaly detection searches in CMS!
 
 
 <div class="row justify-content-sm-center">
     <div class="col-sm mt-4 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/CASE_limits.png' | relative_url }}" alt="" title="Limits" width="300"/>
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/CASE_limits.png' | relative_url }}" alt="" title="Limits" width="500"/>
     </div>
     <div class="col-sm mt-4 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/CASE_signif.png' | relative_url }}" alt="" title="Significance comparison" width="300"/>
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/CASE_signif.png' | relative_url }}" alt="" title="Significance comparison" width="500"/>
     </div>
 </div>
 <div class="caption">
     Left, exclusion limits on the cross section of different new particles from the anomaly
     detection methods (various colors) as compared to several standard
     approaches (black, brown, tan, gray).
-    Right, a comparison of the cross section needed for discovery for the
+    Right, a comparison of the cross section needed for evidence (3-sigma) or discovery (5-sigma) for the
     different methods. 
 </div>
 
 
-To read more you can check out the CMS summary I wrote [here](https://cms.cern/news/can-ai-find-new-particles-its-own)
+To read more you can check out the CMS 'Physics Briefing' I wrote [here](https://cms.cern/news/can-ai-find-new-particles-its-own)
 and the full paper
 [here](https://cms-results.web.cern.ch/cms-results/public-results/preliminary-results/EXO-22-026/index.html). 
 
