@@ -145,8 +145,8 @@ significantly more work than usual for this type of analysis.
 First of all, I had to develop an entirely new method for calibrating the
 modeling of the substructure of exotic jets (preliminary description is
 [here](https://cds.cern.ch/record/2866330), paper will come soon).
-The other vary serious complication is the performance of the weakly supervised methods
-because the method performance (aka signal efficiency) changes dramatically depending on the amount of
+The other vary serious complication is that performance of the weakly supervised methods
+(aka signal efficiency) changes dramatically depending on the amount of
 signal in the data.
 Running on data with no signal present tells you nothing about what you would
 have seen had there been signal present (which is what you care about when
@@ -172,7 +172,7 @@ I think this metric highlights the spirit of anomaly detection: Its about
 increasing our chances of discovery! Not setting limits. 
 
 This analysis was the first ever use of anomaly detection by CMS, and while it
-isn't the first in particle physics overall (ATLAS has had a few results), its the best yet. 
+isn't the first in particle physics overall (ATLAS has had a few results), I would claim its the best yet. 
 We developed a lot of new techniques and know-how which should make future anomaly detection
 searches a bit easier. 
 This project isn't quite finished yet, stay tuned for future papers detailing the jet substructure calibration, ML details of the methods we used

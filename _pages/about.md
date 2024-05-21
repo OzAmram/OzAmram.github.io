@@ -25,7 +25,8 @@ I am particularly interested in ways in which machine learning can help us
 in this quest.
 
 
-My research is currently focus is on model independent searches for new physics 
+My research currently focuses is on model independent searches for new physics,
+novel methods of calibrating exotic jets,
 and fast simulations of complex calorimeters using machine learning methods. 
 Previously I also worked on precision electroweak measurements
 and various aspects of the CMS pixel detector.
