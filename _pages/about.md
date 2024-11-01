@@ -7,7 +7,7 @@ order: 1
 
 profile:
   align: right
-  image: anapolis_rock_cropped.jpeg
+  image: headshot_2024_cropped.jpg
   address: >
     <p>Office: 11th floor, Wilson Hall</p>
     <p>Email: oz.amram[at]gmail.com</p>
@@ -18,6 +18,7 @@ social: false  # includes social icons at the bottom of the page
 ---
 
 I'm Oz, a postdoc at Fermilab working on particle physics research.
+
 I'm a member of the CMS collaboration at the Large Hadron Collider. 
 The CMS experiment tries to understand what the fundamental building blocks of
 the universe are and how they interact. 
@@ -36,9 +37,9 @@ My thesis was titled "Searching for Anomalies in Proton-Proton Collisions at the
 
 
 
-I also regularly write for [ParticleBites](https://www.particlebites.com/), which summarizes recent particle physics papers at the undergraduate
+I semi-regularly write for [ParticleBites](https://www.particlebites.com/), which summarizes recent particle physics papers at the undergraduate
 level. You can read some of my recent posts
 [here](https://www.particlebites.com/?author=30). 
 
-I also (occasionally) post to my non-physics related blog
+I also had to my non-physics related blog I keep meaning to get back to
 [EthicalAnalysis](https://ethicalanalysisblog.wordpress.com/).

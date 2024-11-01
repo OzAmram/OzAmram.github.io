@@ -1,6 +1,6 @@
 ---
 layout: page
-title: CMS Dijet Resonance Anomaly Search
+title: Dijet Resonance Anomaly Search
 description: The first application of anomaly detection in CMS
 img: /assets/img/CASE_evt_display.png
 importance: 1
