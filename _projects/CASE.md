@@ -6,7 +6,7 @@ img: /assets/img/CASE_evt_display.png
 importance: 1
 category: work
 giscus_comments: false
-related_publications: CMS:CASE
+related_publications: CMS:CASE, CMS:Lund
 ---
 <div class="row justify-content-sm-center">
     <div style="text-align: center">
@@ -36,8 +36,7 @@ be possible, making sure we are prepared for the unexpected.
 one such type of anomaly detection algorithm. 
 We showed it could be successfully find signals in simulated datasets and data
 challenges. But of course the real challenge is to actually apply it to real
-CMS data (and get through internal CMS review).
-Well after many years of effort the results are here.
+CMS data (and convince CMS beaurocracy to publish a crazy new idea like this).
 
 <div class="row justify-content-sm-center">
     <div style="text-align: center">
@@ -82,6 +81,8 @@ The most important step is of course the selection of the anomalous events
 and because each method made different assumptions and used different techniques, we
 expected them to have complementary sensitivity to different types of
 anomalies.
+In addition to applying two of the algorithms (my own Tag N' Train and a close cousin CWoLa Hunting) I also developed the
+analysis framework, statistical procedures, systematic uncertainties and coordinated the different teams.
 
 
 <div class="row justify-content-sm-center">
@@ -126,8 +127,9 @@ have been able to claim a discovery ($$> 5 \sigma$$)!
 Our testing also showed that there was no one 'optimal' anomaly detection
 method; they each performed better or worse on different signals. 
 
-Unfortunately when applied to the actual data, no method found any significant
-evidence of new particles :(
+After all this validation we finally 'unblinded' and unleashed our algorithms
+on the real data.
+Unfortunately no method found any significant evidence of new particles :(
 
 <div class="row justify-content-sm-center">
     <div style="text-align: center">
@@ -142,9 +144,10 @@ The typical thing to do with a null result search is to place limits constrainin
 of particles which your analysis was sensitive to.
 While this is a standard practice for a null-result search, it required
 significantly more work than usual for this type of analysis. 
-First of all, I had to develop an entirely new method for calibrating the
-modeling of the substructure of exotic jets (preliminary description is
-[here](https://cds.cern.ch/record/2866330), paper will come soon).
+First, I had to develop an entirely new method for calibrating the
+modeling of the substructure of exotic jets because prior methods were not applicable 
+(this led to an entirely [separate paper](https://cds.cern.ch/record/2924412)
+on just this method).
 The other vary serious complication is that performance of the weakly supervised methods
 (aka signal efficiency) changes dramatically depending on the amount of
 signal in the data.
@@ -166,27 +169,30 @@ method of quantifying the sensitivity of the anomaly detection methods.
 This metric computed how many signal events (aka cross section) would be needed to claim
 a discovery ($$5 \sigma$$) from each method. 
 We showed that for several signals the anomaly detection methods were able to claim a discovery
-with a factor of ~3-4 fewer signal events
+with usually with a factor of ~3-4 fewer signal events
 (Tag N' Train even reached up to a factor of 7 for one signal). 
 I think this metric highlights the spirit of anomaly detection: Its about
 increasing our chances of discovery! Not setting limits. 
 
 This analysis was the first ever use of anomaly detection by CMS, and while it
-isn't the first in particle physics overall (ATLAS has had a few results), I would claim its the best yet. 
-We developed a lot of new techniques and know-how which should make future anomaly detection
-searches a bit easier. 
-This project isn't quite finished yet, stay tuned for future papers detailing the jet substructure calibration, ML details of the methods we used
-as well as the final version of this physics results paper. 
-But once all of that is wrapped up, I am excited to build on we developed here
-for new anomaly detection searches in CMS!
+isn't the first in particle physics overall (ATLAS has had a few results) it is definitely the most comprehensive. 
+We used five algorithms instead of just one to have as broad of coverage as
+possible. 
+We also significantly ramped up the power these algorithms by using
+many more discriminating features than prior works applied to data.
+The technique I developed to calibrate the ML-based identification of exotic
+jets has now become standardardized and is being used in several other analyses. 
+The new techniques and know-how we developed should make future anomaly detection
+searches a much easier. 
+I'm excited to build upon this work for new anomaly detection searches in CMS!
 
 
 <div class="row justify-content-sm-center">
     <div class="col-sm mt-4 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/CASE_limits.png' | relative_url }}" alt="" title="Limits" width="500"/>
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/CASE_limits_new.png' | relative_url }}" alt="" title="Limits" width="500"/>
     </div>
     <div class="col-sm mt-4 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/CASE_signif.png' | relative_url }}" alt="" title="Significance comparison" width="500"/>
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/CASE_signif_new.png' | relative_url }}" alt="" title="Significance comparison" width="500"/>
     </div>
 </div>
 <div class="caption">
@@ -195,10 +201,11 @@ for new anomaly detection searches in CMS!
     approaches (black, brown, tan, gray).
     Right, a comparison of the cross section needed for evidence (3-sigma) or discovery (5-sigma) for the
     different methods. 
+    The bottom ratio panel shows the improve as compared to a standard approach.
 </div>
 
 
 To read more you can check out the CMS 'Physics Briefing' I wrote [here](https://cms.cern/news/can-ai-find-new-particles-its-own)
-and the full paper
-[here](https://cms-results.web.cern.ch/cms-results/public-results/preliminary-results/EXO-22-026/index.html). 
+and the full search paper [here](https://arxiv.org/abs/2412.03747) and the paper on calibrating these
+exotic jets [here](https://cds.cern.ch/record/2924412).
 

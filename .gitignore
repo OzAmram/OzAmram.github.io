@@ -5,6 +5,7 @@ _site
 .jekyll-metadata
 .DS_store
 .ruby-version
+*.swp
 .tweet-cache
 *.un~
 Gemfile.lock
