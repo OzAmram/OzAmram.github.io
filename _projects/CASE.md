@@ -179,12 +179,13 @@ isn't the first in particle physics overall (ATLAS has had a few results) it is 
 We used five algorithms instead of just one to have as broad of coverage as
 possible. 
 We also significantly ramped up the power these algorithms by using
-many more discriminating features than prior works applied to data.
+many more discriminating features than prior searches.
 The technique I developed to calibrate the ML-based identification of exotic
 jets has now become standardardized and is being used in several other analyses. 
-The new techniques and know-how we developed should make future anomaly detection
-searches a much easier. 
+
 I'm excited to build upon this work for new anomaly detection searches in CMS!
+A preview of one class of searches I am interested in can be found in [this
+paper](https://arxiv.org/abs/2504.13249). 
 
 
 <div class="row justify-content-sm-center">

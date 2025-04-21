@@ -19,14 +19,17 @@ social: false  # includes social icons at the bottom of the page
 
 ## I'm Oz, a postdoctoral researcher at Fermilab working on the intersection of AI and particle physics.
 
-I'm a member of the CMS collaboration at the Large Hadron Collider. 
-The CMS experiment tries to understand what the fundamental building blocks of
-the universe are and how they interact. 
+I'm a part of the CMS experiment at the Large Hadron Collider. 
+CMS tries to understand what the fundamental building blocks of
+the universe are and how they interact, both by measuring the properties of the
+particles we know about, like the Higgs boson, and by looking for new
+particles.
 I am particularly interested in ways in which AI can help us
 in this quest.
 
 
-My current research focuses novel model independent searches for new physics
+My current research focuses novel model independent searches and
+data-collection strategies (triggers) for new particles
 based on anomaly detection,
 and using generative AI for fast simulations of particle interactions in calorimeters. 
 Previously I also worked on precision electroweak measurements
@@ -40,5 +43,5 @@ I semi-regularly write for [ParticleBites](https://www.particlebites.com/), whic
 level. You can read some of my recent posts
 [here](https://www.particlebites.com/?author=30). 
 
-I also had to my non-physics related blog I keep meaning to get back to
+I also have a non-physics related blog I keep meaning to get back to
 [EthicalAnalysis](https://ethicalanalysisblog.wordpress.com/).
