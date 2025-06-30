@@ -2,20 +2,30 @@
 layout: about
 title: about
 permalink: /
-description: Postdoctoral Researcher in Experimental Particle Physics at Fermilab
+subtitle:
 order: 1
 
 profile:
   align: right
   image: headshot_2024_cropped.jpg
-  address: >
-    <p>Office: 1106, Wilson Hall</p>
-    <p>Email: oz.amram[at]gmail.com</p>
+  image_circular: false # crops the image to make it circular
+  more_info: >
+    <p>Fermilab, Wilson Hall 1167</p>
+    <p>123 Batavia, IL</p>
 
-news: false  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
-social: false  # includes social icons at the bottom of the page
+social: true # includes social icons at the bottom of the page
 
+announcements:
+  enabled: false # includes a list of news items
+  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
+  limit: 5 # leave blank to include all the news in the `_news` folder
+
+latest_posts:
+  enabled: false
+  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
+  limit: 3 # leave blank to include all the blog posts
+---
 ## I'm Oz, a postdoctoral researcher at Fermilab working on the intersection of AI and particle physics.
 
 I'm a member of the CMS experiment at the Large Hadron Collider hosted at CERN. 
