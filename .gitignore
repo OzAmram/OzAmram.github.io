@@ -9,5 +9,7 @@ _site
 .tweet-cache
 *.un~
 Gemfile.lock
+assets/libs/
+node_modules/
 vendor
-
+.idea
