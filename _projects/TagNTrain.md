@@ -71,8 +71,10 @@ signal.
 <div class="caption">
     Left, a flow-chart for the Tag N' Train algorithm. Right, a ROC curve
     showing the classification performance of the TNT classifier as compared to
-    some baselines. See the paper
-    for more details.
+    some baselines. 
+    For a resonance search with very small signals, using invariant mass information (Mjj) in addition the
+    baseline TNT algorithm helps performance.
+    See the paper for more details.
 </div>
 
 
@@ -86,7 +88,7 @@ Tag N' Train was one of the few entries able to correctly find the hidden
 signal!
 
 
-Tag N' Train was used as part of the [CMS anomaly detection search](projects/CASE) that
+Tag N' Train was used as part of the [CMS anomaly detection search](CASE) that
 I led and performed very well!
 
 To read more about the method can check out our paper on Tag N' Train paper {% cite TNT %}

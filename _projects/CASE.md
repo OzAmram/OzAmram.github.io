@@ -32,7 +32,7 @@ because we haven't thought to (or had time to) search for them.
 This is the gap in coverage that 'anomaly detection' tries to solve.
 The strategy is use novel ML methods to cast a wider net that would otherwise
 be possible, making sure we are prepared for the unexpected. 
-[Tag N' Train](projects/TagNTrain) {% cite TNT %} , one of my projects from grad school, was 
+[Tag N' Train](TagNTrain) {% cite TNT %} , one of my projects from grad school, was 
 one such type of anomaly detection algorithm. 
 We showed it could be successfully find signals in simulated datasets and data
 challenges. But of course the real challenge is to actually apply it to real
