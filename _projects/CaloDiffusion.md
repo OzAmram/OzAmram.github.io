@@ -6,7 +6,7 @@ img: /assets/img/calo_challenge.jpg
 importance: 1
 category: work
 giscus_comments: false
-related_publications: Amram:2023onf
+related_publications: true
 ---
 
 Simulations play a crucial role in making sense of the massive amounts of data
@@ -43,7 +43,7 @@ accurately generate these calorimeter showers faster than GEANT, then it could
 be used GEANT's place in the simulation workflow.
 People in the HEP+ML community have been working on this problem for a few
 years and a variety of approaches are being explored.
-Our approach, **CaloDiffusion**, is based on a type of generative machine learning model called
+Our approach, **CaloDiffusion** {% cite CaloDiffusion %}, is based on a type of generative machine learning model called
 'diffusion', which has extemely popular starting in ~2022.
 It is the backbone behind most of the popular AI image generation technologies: DALLE, MidJourny, StableDiffusion, etc.
 Using CaloDiffusion, we are able to obtain showers that are nearly
@@ -172,10 +172,11 @@ Our approach particularly shined on the highest dimensional dataset, in which
 we significantly outperformed previous approaches.
 
 
-Further comparisons between CaloDiffusion and other approaches are being perfomed 
-as part of the CaloChallenge, but the [results so
-far](https://indico.cern.ch/event/1253794/contributions/5588599/attachments/2749348/4784940/CaloChallenge.C.Krause.pdf) 
-show CaloDiffusion produces the highest quality showers for all datasets (with ~40 total submissions). 
+Further comparisons between CaloDiffusion and other approaches were perfomed 
+as part of the CaloChallenge {% cite CaloChallenge %}. 
+Out of approximately 40 total submissions CaloDiffusion was in the top 2 of shower quality for all datasets
+(the other high quality submission, also based on diffusion, was released
+a year after CaloDiffusion). 
 
 Further improvements to CaloDiffusion are in progress, and we hope to apply the
 model to simulate the CMS HGCAL in the near future!

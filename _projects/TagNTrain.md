@@ -1,12 +1,12 @@
 ---
 layout: page
 title: Tag N' Train
-description: A new method for Anomaly detection at the LHC
+description: A new method for anomaly detection at the LHC
 img: /assets/img/TNT_cwola_wide.png
 importance: 1
 category: work
 giscus_comments: false
-related_publications: Amram:2020ykb, Kasieczka:2021xcg
+related_publications: true
 ---
 ![image](/assets/img/TNT_cwola.jpg){: width="200" style="float: right"}
 
@@ -86,9 +86,9 @@ Tag N' Train was one of the few entries able to correctly find the hidden
 signal!
 
 
-I hope to apply the Tag N' Train algorithm for an anomaly search on real collider data soon, as well
-as explore other applications of the algorithm. 
+Tag N' Train was used as part of the [CMS anomaly detection search](projects/CASE) that
+I led and performed very well!
 
-To read more you can check out our paper on Tag N' Train paper [here](https://arxiv.org/abs/2002.12376)
-and our results in the LHC olympics paper [here](https://arxiv.org/abs/2101.08320). 
+To read more about the method can check out our paper on Tag N' Train paper {% cite TNT %}
+and our results in the LHC olympics paper {% cite LHCO %} . 
 

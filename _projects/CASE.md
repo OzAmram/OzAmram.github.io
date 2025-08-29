@@ -6,7 +6,7 @@ img: /assets/img/CASE_evt_display.png
 importance: 1
 category: work
 giscus_comments: false
-related_publications: CMS:CASE, CMS:Lund
+related_publications: true
 ---
 <div class="row justify-content-sm-center">
     <div style="text-align: center">
@@ -32,7 +32,7 @@ because we haven't thought to (or had time to) search for them.
 This is the gap in coverage that 'anomaly detection' tries to solve.
 The strategy is use novel ML methods to cast a wider net that would otherwise
 be possible, making sure we are prepared for the unexpected. 
-[Tag N' Train](projects/TagNTrain), one of my projects from grad school, was 
+[Tag N' Train](projects/TagNTrain) {% cite TNT %} , one of my projects from grad school, was 
 one such type of anomaly detection algorithm. 
 We showed it could be successfully find signals in simulated datasets and data
 challenges. But of course the real challenge is to actually apply it to real
@@ -183,10 +183,6 @@ many more discriminating features than prior searches.
 The technique I developed to calibrate the ML-based identification of exotic
 jets has now become standardardized and is being used in several other analyses. 
 
-I'm excited to build upon this work for new anomaly detection searches in CMS!
-A preview of one class of searches I am interested in can be found in [this
-paper](https://arxiv.org/abs/2504.13249). 
-
 
 <div class="row justify-content-sm-center">
     <div class="col-sm mt-4 mt-md-0">
@@ -207,6 +203,16 @@ paper](https://arxiv.org/abs/2504.13249).
 
 
 To read more you can check out the CMS 'Physics Briefing' I wrote [here](https://cms.cern/news/can-ai-find-new-particles-its-own)
-and the full search paper [here](https://arxiv.org/abs/2412.03747) and the paper on calibrating these
-exotic jets [here](https://cds.cern.ch/record/2924412).
+
+This project resulted in three publications: search paper with the main physics results {% cite CMS:CASE %}, a paper with more details on the machine learning strategies employed {% cite CMS:CASE_ML %}, and the paper on calibrating these
+exotic jets {% cite CMS:Lund %}.
+
+
+I'm also excited to build upon this work for new anomaly detection searches in CMS!
+The autoencoder used as part of the TNT method, along with the jet substructure
+calibration technique I developed, was used to search for heavy resonances
+decaying to a Higgs and an anomalous jet {% cite Higgs_plus_X %}.
+A new class of searches I am interested in performing is looking
+for resonances produced in association with additional anomalous event activity, 
+we explored this in a phenomenological study {% cite  Res_plus_X %} . 
 
