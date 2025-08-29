@@ -90,7 +90,7 @@ ninja.data = [{
               window.location.href = "/projects/Drell_Yan_AFB.html";
             },},{id: "projects-tag-n-39-train",
           title: 'Tag N&amp;#39; Train',
-          description: "A new method for Anomaly detection at the LHC",
+          description: "A new method for anomaly detection at the LHC",
           section: "Projects",handler: () => {
               window.location.href = "/projects/TagNTrain.html";
             },},{
