@@ -32,8 +32,7 @@ I'm a member of the CMS experiment at the Large Hadron Collider hosted at CERN.
 CMS studies the fundamental particles and forces which constitute all matter in
 the universe. 
 By studying these particle we hope help answer many questions we have about how
-nature works on its most fundamental level and how the many wonders in the
-universe came to be.
+nature works on its most fundamental level.
 
 We attempt to answer these questions by colliding protons at the highest energies possible, millions
 of times a second, and measuring the results of these collisions in
