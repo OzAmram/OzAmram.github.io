@@ -54,9 +54,9 @@ I also work on **generative AI for fast simulations** of particle interactions i
 **AI-enhanced data-collection** algorithms (triggers), 
 and as well as various other new applications of AI in particle physics. 
 
-Previously I also worked on precision electroweak measurements and various aspects of the CMS pixel detector.
 
 I completed my PhD at Johns Hopkins University in 2022.
+During my PhD in addition to anomaly detection I also worked on precision electroweak measurements and various aspects of the CMS pixel detector.
 My thesis was titled ["Searching for Anomalies in Proton-Proton Collisions at the Large Hadron Collider"](https://jscholarship.library.jhu.edu/items/4e704274-b8f6-4199-845d-d8d7e3eb1fa7).
 
 
