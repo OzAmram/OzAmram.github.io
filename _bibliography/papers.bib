@@ -1,6 +1,58 @@
 ---
 ---
 
+@article{VerAIphy_anomaly,
+    abbr={arXiv}, 
+    author = "Amram, Oz and Letizia, Marco and Kuusela, Mikael",
+    title = "{Model-Agnostic Signal Discovery with Machine Learning: Bridging the Gap Between Theory and Practice}",
+    eprint = "2605.31103",
+    archivePrefix = "arXiv",
+    primaryClass = "physics.data-an",
+    reportNumber = "FERMILAB-PUB-26-0009-CMS-PPD",
+    month = "5",
+    year = "2026",
+    html = "{https://arxiv.org/abs/2605.31103}", 
+    abstract = {
+        Searches for new phenomena in complex scientific data are predominantly model-dependent, optimized for specific hypotheses, and therefore limited in their coverage of the space of possible signals. Recently, new AI-based model-agnostic search strategies, many of which have been pioneered in high-energy physics, have been proposed which provide a complementary paradigm, prioritizing broad exploration over tailored analyses. These techniques offer an opportunity to enhance the overall discovery potential of modern experiments, especially in regimes where theoretical guidance is scarce. In this document, we review the conceptual framework behind the main classes of AI-based model-agnostic strategies. We discuss the potential pitfalls of these methods, and strategies for their validation and interpretation. We aim for this document to serve as a useful reference both for practitioners and for researchers interested in learning more about these model-agnostic search strategies.
+    }
+}
+
+
+@article{CaloTrilogy,
+    abbr={arXiv}, 
+    author = "Jiang, Cheng and Qian, Sitian and Pedro, Kevin and Amram, Oz and Qu, Huilin and Voetberg, Maggie",
+    title = "{CaloTrilogy: Toward a Breakthrough in One-Step, End-to-End, Physics-Guided Shower Generation for Modern Calorimeters}",
+    eprint = "2606.04165",
+    archivePrefix = "arXiv",
+    primaryClass = "hep-ex",
+    reportNumber = "FERMILAB-PUB-26-0365-CSAID-PPD",
+    month = "6",
+    year = "2026",
+    html = "{https://arxiv.org/abs/2606.04165}", 
+    abstract = {
+            High-precision calorimeter simulation at current and future colliders imposes rapidly growing computational demands, motivating the development of machine-learning surrogates for traditional Monte Carlo tools such as Geant4. Flow matching and diffusion-based generative models have become leading approaches for high-dimensional fast simulation because of their sample quality, but typically require O(100) function evaluations at inference and often rely on auxiliary networks to constrain global observables, compromising streamlined end-to-end generation. We introduce a unified framework that improves the balance between speed, shower quality, and physics fidelity. The method combines: (i) an average velocity field integrator that enables sampling in one or a few evaluations; (ii) a learned generative prior in shower space, constructed from data rather than random noise; and (iii) physics-guided loss terms that impose inductive biases on key observables during training. These elements are training time regularizers, preserving end-to-end inference with no additional cost. With only one or a few evaluation steps, the model achieves shower quality competitive with state-of-the-art flow and diffusion approaches, tested on several public high granularity calorimeter datasets. The results demonstrate inter-layer shower structure consistent with the underlying physics, providing a strong candidate for future fast simulation workflows.
+        }
+}
+
+
+@article{Jet_scaling,
+    abbr={arXiv}, 
+    author = {Amram, Oz and Faroughy, Darius A. and Gerdes, Tjarko and Hallin, Anna and Kasieczka, Gregor and Kr{\"a}mer, Michael and Reyes-Gonzalez, Humberto and Shih, David},
+    title = "{Neural Scaling Laws for Jet Generation}",
+    eprint = "2605.28940",
+    archivePrefix = "arXiv",
+    primaryClass = "hep-ph",
+    reportNumber = "TTK-26-17, FERMILAB-PUB-26-0395-PPD",
+    month = "5",
+    year = "2026",
+    html = "{https://arxiv.org/abs/2605.28940}", 
+    abstract = {
+        Recently observed empirical scaling laws describe the performance of foundation-type models as three independent key quantities -- dataset size, compute, and model parameters -- are modified. Extracting these scaling laws informs the training of large complex models for which the tuning of hyperparameters in traditional ways is not feasible. This work for the first time explores if scaling laws can also be observed for the task of particle jet generation -- both relevant as a pre-training objective for foundation models and as in-situ simulation by itself. We indeed replicate the key logarithmic scaling law behavior for model-size scaling. Beyond studying the next token prediction validation loss of the generative model, we also study the sliced Wasserstein distance of five physical quantities that are not immediately available to the model during training. Our study shows that this quantity is monotonically related to the next token prediction validation loss, meaning that this loss is indeed a good proxy for the physics performance. For the scaling with dataset size and compute, we observe substantially weaker scaling behavior of both the loss and the sliced Wasserstein distance. We analyze this behavior by introducing the concept of a learnable window, and argue that autoregressive next token prediction on jet constituents exhibits comparatively rapid saturation relative to language-model studies. We discuss possible origins of this behavior, including the stochastic nature of QCD radiation and differences between generative and supervised learning tasks in collider physics.
+    }
+
+}
+
+
 
 @article{CMS:Lund,
       abbr={JHEP},
@@ -21,22 +73,24 @@
       }
 }
 
-
 @article{CMS:CASE_ML,
-      author = "{CMS Collaboration}",
-      abbr={CMS-PAS},
-      collaboration = "CMS",
-      title         = "{Machine-learning techniques for model-independent searches in dijet final states}",
-      institution   = "CERN",
-      reportNumber  = "CMS-PAS-MLG-23-002",
-      journal = "CMS-PAS-MLG-23-002",
-      year          = "2025",
-      month = "7",
-      html           = "https://cds.cern.ch/record/2938054?ln=en",
-      abstract = {
-          Anomaly detection methods used in a recent search for new phenomena at the CMS Experiment at the LHC are presented. The methods use machine learning to detect anomalous jets produced in the decay of new massive particles. The effectiveness of these approaches in enhancing sensitivity to various signals is studied and compared using data collected in proton--proton collisions at a center-of-mass energy of 13TeV and amounting to 138fb−1. In addition, the capabilities of anomaly detection methods are illustrated by identifying boosted jets corresponding to hadronically decaying top quarks in a model-agnostic fashion.
-      }
+    abbr={Sub. to ML Sci. Tech.},
+    author = "{CMS Collaboration}",
+    collaboration = "CMS",
+    title = "{Machine-learning techniques for model-independent searches in dijet final states}",
+    eprint = "2512.20395",
+    archivePrefix = "arXiv",
+    primaryClass = "hep-ex",
+    reportNumber = "CMS-MLG-23-002, CERN-EP-2025-269",
+    doi = "10.5281/zenodo.16656501",
+    html = "{https://arxiv.org/abs/2512.20395}", 
+    month = "12",
+    year = "2025",
+        abstract = {
+            Anomaly detection methods used in a recent search for new phenomena by CMS at the CERN LHC are presented. The methods use machine learning to detect anomalous jets produced in the decay of new massive particles. The effectiveness of these approaches in enhancing sensitivity to various signals is studied and compared using data collected in proton-proton collisions at a center-of-mass energy of 13 TeV. In an example analysis, the capabilities of anomaly detection methods are further demonstrated by identifying large-radius jets consistent with Lorentz-boosted hadronically decaying top quarks in a model-agnostic framework.
+        },
 }
+
 
 @article{HI_SIGMA,
     abbr={JHEP},
@@ -47,9 +101,12 @@
     primaryClass = "hep-ph",
     reportNumber = "FERMILAB-PUB-25-0380-CMS-PPD",
     html = {https://arxiv.org/abs/2506.06438}, 
-    journal = "Acc. in JHEP",
-    month = "6",
+    doi = "10.1007/JHEP11(2025)129",
+    journal = "JHEP",
+    volume = "11",
+    pages = "129",
     year = "2025",
+    month = "6",
     abstract = {
         Crucial to many measurements at the LHC is the use of correlated multi-dimensional information to distinguish rare processes from large backgrounds, which is complicated by the poor modeling of many of the crucial backgrounds in Monte Carlo simulations. In this work, we introduce HI-SIGMA, a method to perform unbinned high-dimensional statistical inference with data-driven background distributions. In contradistinction to many applications of Simulation Based Inference in High Energy Physics, HI-SIGMA relies on generative ML models, rather than classifiers, to learn the signal and background distributions in the high-dimensional space. These ML models allow for efficient, interpretable inference while also incorporating model errors and other sources of systematic uncertainties. We showcase this methodology on a simplified version of a di-Higgs measurement in the bbγγ final state, where the di-photon resonance allows for efficient background interpolation from sidebands into the signal region. We demonstrate that HI-SIGMA provides improved sensitivity as compared to standard classifier-based methods, and that systematic uncertainties can be straightforwardly incorporated by extending methods which have been used for histogram based analyses.
     }
@@ -64,6 +121,7 @@
     primaryClass = "hep-ph",
     reportNumber = "FERMILAB-PUB-25-0247-PPD",
     html = {https://arxiv.org/abs/2504.13249}, 
+    doi = "10.1103/rk29-518p", 
     month = "4",
     journal = "Phys. Rev. D",
     volume = "112",
@@ -95,21 +153,27 @@
 }
 
 @article{Higgs_plus_X,
-    abbr={Sub. to EPJ C},
+    abbr={EPJ C},
     author = "{CMS Collaboration}",
     collaboration = "CMS",
-    title = "{Search for resonances decaying to an anomalous jet and a Higgs boson in proton-proton collisions at $\sqrt{s}$ = 13 TeV}",
+    title = "{Search for resonances decaying to an anomalous jet and a Higgs boson in proton{\textendash}proton collisions at $\sqrt{s}=13\,\text {Te}\hspace{-.08em}\text {V} $}",
     eprint = "2509.13635",
     archivePrefix = "arXiv",
     primaryClass = "hep-ex",
-    journal = "Sub. to EPJ C",
-    html = "https://arxiv.org/abs/2509.13635",
+    reportNumber = "CMS-B2G-24-015, CERN-EP-2025-190",
+    doi = "10.1140/epjc/s10052-025-15176-9",
+    journal = "Eur. Phys. J. C",
+    volume = "86",
+    number = "2",
+    pages = "137",
     month = "9",
     year = "2025",
+    html = "{https://arxiv.org/abs/2509.13635}", 
     abstract={
             This paper presents a search for new physics through the process where a new massive particle, X, decays into a Higgs boson and a second particle, Y. The Higgs boson subsequently decays into a bottom quark-antiquark pair, reconstructed as a single large-radius jet. The decay products of Y are also assumed to produce a single large-radius jet. The identification of the Y particle is enhanced by computing the anomaly score of its candidate jet using an autoencoder, which measures deviations from typical QCD multijet jets. This allows a simultaneous search for multiple Y decay scenarios within a single analysis. In the main benchmark process, Y is a scalar particle that decays into W+W-. Two other benchmark processes are also considered, where Y is a scalar particle decaying into a light quark-antiquark pair, or into a top quark-antiquark pair. The last benchmark considers Y as a hadronically decaying top quark, arising from the decay of a vector-like quark into a top quark and a Higgs boson. Data recorded by the CMS experiment at a center-of-mass energy of 13 TeV in 2016-2018, and corresponding to an integrated luminosity of 138 fb-1, are analyzed. No significant excess is observed, and upper limits on the benchmark signal cross section for various masses of X and Y, at 95\% confidence level, are placed.
         }
 }
+
 
 
 
@@ -124,12 +188,14 @@
     month = "12",
     html = {https://arxiv.org/abs/2412.03747},
     journal = "Rept. Prog. Phys.",
+    doi = "10.1088/1361-6633/add762", 
     volume = "88",
     number = "6",
     abstract={
         This paper presents a model-agnostic search for narrow resonances in the dijet final state in the mass range 1.8-6 TeV. The signal is assumed to produce jets with substructure atypical of jets initiated by light quarks or gluons, with minimal additional assumptions. Search regions are obtained by utilizing multivariate machine-learning methods to select jets with anomalous substructure. A collection of complementary anomaly detection methods - based on unsupervised, weakly supervised, and semisupervised algorithms - are used in order to maximize the sensitivity to unknown new physics signatures. These algorithms are applied to data corresponding to an integrated luminosity of 138 fb−1, recorded by the CMS experiment at the LHC, at a center-of-mass energy of 13 TeV. No significant excesses above background expectations are seen. Exclusion limits are derived on the production cross section of benchmark signal models varying in resonance mass, jet mass, and jet substructure. Many of these signatures have not been previously sought, making several of the limits reported on the corresponding benchmark models the first ever. When compared to benchmark inclusive and substructure-based search strategies, the anomaly detection methods are found to significantly enhance the sensitivity to a variety of models.
     }
 }
+
 
 @article{AOJ,
     abbr={ML Sci. Tech.},
@@ -152,19 +218,24 @@
 }
 
 @article{CMS:LQ,
-    abbr={Sub. to JHEP},
+    abbr={JHEP},
     author = "{CMS Collaboration}",
     collaboration = "CMS",
     title = "{Search for $t$-channel scalar and vector leptoquark exchange in the high-mass dimuon and dielectron spectra in proton-proton collisions at $\sqrt{s}$ = 13 TeV}",
     eprint = "2503.20023",
     archivePrefix = "arXiv",
     primaryClass = "hep-ex",
-    journal = "Sub. to JHEP",
+    reportNumber = "CMS-EXO-22-013, CERN-EP-2024-275",
+    doi = "10.1007/JHEP12(2025)052",
+    journal = "JHEP",
+    volume = "12",
+    pages = "052",
     year          = "2024",
     html           = "https://arxiv.org/abs/2503.20023",
     abstract = { A search for t-channel exchange of leptoquarks (LQs) is performed in dimuon and dielectron spectra using proton-proton collision data collected at √s = 13 TeV with the CMS detector at the CERN LHC. The data correspond to an integrated luminosity of 138 fb−1. Eight scenarios are considered, in which scalar or vector LQs couple up or down quarks to muons or electrons, for dilepton invariant masses above 500 GeV. The LQ masses are probed up to 5 TeV, beyond a regime probed by previous pair-production and single-production searches. The differential distributions of dilepton events are fit to templates that model the nonresonant LQ exchange and various standard model background processes. Limits are set on LQ-fermion coupling strengths for scalar and vector LQ masses in the 1-5 TeV range at 95\% confidence level, establishing stringent limits on first- and second-generation LQs.
     },
 }
+
 
 @article{CaloChallenge,
 	abbr={Rept. Prog. Phys.},
@@ -180,6 +251,26 @@
 	abstract = {We present the results of the "Fast Calorimeter Simulation Challenge 2022" - the CaloChallenge. We study state-of-the-art generative models on four calorimeter shower datasets of increasing dimensionality, ranging from a few hundred voxels to a few tens of thousand voxels. The 31 individual submissions span a wide range of current popular generative architectures, including Variational AutoEncoders (VAEs), Generative Adversarial Networks (GANs), Normalizing Flows, Diffusion models, and models based on Conditional Flow Matching. We compare all submissions in terms of quality of generated calorimeter showers, as well as shower generation time and model size. To assess the quality we use a broad range of different metrics including differences in 1-dimensional histograms of observables, KPD/FPD scores, AUCs of binary classifiers, and the log-posterior of a multiclass classifier. The results of the CaloChallenge provide the most complete and comprehensive survey of cutting-edge approaches to calorimeter fast simulation to date. In addition, our work provides a uniquely detailed perspective on the important problem of how to evaluate generative models. As such, the results presented here should be applicable for other domains that use generative AI and require fast and faithful generation of samples in a large phase space.
     }
 }
+
+@article{CaloChallenge,
+	abbr={Rept. Prog. Phys.},
+    author = "Krause, Claudius and others",
+    title = "{CaloChallenge 2022: A Community Challenge for Fast Calorimeter Simulation}",
+    eprint = "2410.21611",
+    archivePrefix = "arXiv",
+    primaryClass = "physics.ins-det",
+    reportNumber = "HEPHY-ML-24-05, FERMILAB-PUB-24-0728-CMS, TTK-24-43",
+    doi = "10.1088/1361-6633/ae1304",
+    journal = "Rept. Prog. Phys.",
+    volume = "88",
+    number = "11",
+    pages = "116201",
+    year = "2024",
+    html = {https://arxiv.org/abs/2410.21611},
+	abstract = {We present the results of the "Fast Calorimeter Simulation Challenge 2022" - the CaloChallenge. We study state-of-the-art generative models on four calorimeter shower datasets of increasing dimensionality, ranging from a few hundred voxels to a few tens of thousand voxels. The 31 individual submissions span a wide range of current popular generative architectures, including Variational AutoEncoders (VAEs), Generative Adversarial Networks (GANs), Normalizing Flows, Diffusion models, and models based on Conditional Flow Matching. We compare all submissions in terms of quality of generated calorimeter showers, as well as shower generation time and model size. To assess the quality we use a broad range of different metrics including differences in 1-dimensional histograms of observables, KPD/FPD scores, AUCs of binary classifiers, and the log-posterior of a multiclass classifier. The results of the CaloChallenge provide the most complete and comprehensive survey of cutting-edge approaches to calorimeter fast simulation to date. In addition, our work provides a uniquely detailed perspective on the important problem of how to evaluate generative models. As such, the results presented here should be applicable for other domains that use generative AI and require fast and faithful generation of samples in a large phase space.
+    }
+}
+
 
 
 

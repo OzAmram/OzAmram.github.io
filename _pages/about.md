@@ -26,7 +26,7 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
-## I'm Oz, a postdoctoral researcher at Fermilab working on the intersection of AI and particle physics
+## I'm Oz, a Wilson Fellow & Associate Scientist at Fermilab working on the intersection of Machine Learning and Particle Physics
 
 I'm a member of the CMS experiment at the Large Hadron Collider hosted at CERN. 
 CMS studies the fundamental particles and forces which constitute all matter in
@@ -40,24 +40,25 @@ sophisticated specialized detectors.
 We use this avalanche of data to measure the properties of the known fundamental particles,
 and to look for new particles which would play a part in answering some of these deep questions.
 
-**I am particularly interested in ways in which AI can help us in this grand quest!**
+**I am particularly interested in ways in which Machine Learning & AI can help us in this grand quest!**
 
 
-One focus of my current research are searches for new particles based on **AI-based anomaly detection**.
+One focus of my current research are searches for new particles based on **ML-based anomaly detection**.
 There are many types of new particles which could be hiding in LHC data and is
 impossible to design analyses to search for all of them individually. 
-Anomaly detection is a new technique which searches through the data to find interesting 'anomalous' collisions new particles, without 
+Anomaly detection is a new technique which searches through the data to find interesting 'anomalous' collisions containing new particles, without 
 reference to a specific model of what new particles to look for. 
 This allows searches with discovery potential to a much broader collection of new particles than traditional methods.  
+My ethos is that nature may be much stranger and more clever than us humans have guessed, so lets build strategies that are open to surprises. 
 
-I also work on **generative AI for fast simulations** of particle interactions in calorimeters,
-**AI-enhanced data-collection** algorithms (triggers), 
-and as well as various other new applications of AI in particle physics. 
+I also work on **generative models for fast simulations** of particle interactions in calorimeters,
+**ML-enhanced data-collection** algorithms (triggers), 
+and as well as various other new applications of ML & AI in particle physics. 
 
 
 I completed my PhD at Johns Hopkins University in 2022.
-During my PhD in addition to anomaly detection I also worked on precision electroweak measurements and various aspects of the CMS pixel detector.
 My thesis was titled ["Searching for Anomalies in Proton-Proton Collisions at the Large Hadron Collider"](https://jscholarship.library.jhu.edu/items/4e704274-b8f6-4199-845d-d8d7e3eb1fa7).
+I then joined Fermilab as a postdoctoral researcher, and 2026 I became a Wilson Fellow, a tenure-track equivalent associate scientist position. 
 
 
 I sometimes write for [ParticleBites](https://www.particlebites.com/), which summarizes recent particle physics papers for a broad audience.
