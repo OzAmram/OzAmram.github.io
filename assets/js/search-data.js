@@ -88,6 +88,16 @@ ninja.data = [{
           description: "Measuring the Drell-Yan forward-backward asymmetry with CMS",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Drell_Yan_AFB.html";
+            },},{id: "projects-foundation-models-for-physics",
+          title: 'Foundation Models for Physics',
+          description: "Pre-training on real LHC data, and how physics data scales",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/FoundationModels.html";
+            },},{id: "projects-hi-sigma",
+          title: 'HI-SIGMA',
+          description: "Data-driven high-dimensional inference with generative models",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/HI_SIGMA.html";
             },},{id: "projects-tag-n-39-train",
           title: 'Tag N&amp;#39; Train',
           description: "A new method for anomaly detection at the LHC",
