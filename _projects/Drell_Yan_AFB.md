@@ -3,8 +3,8 @@ layout: page
 title: Parity Violation
 description: Measuring the Drell-Yan forward-backward asymmetry with CMS
 img: /assets/img/rose_mirror_parity_violation.jpg
-importance: 2
-category: work
+importance: 1
+category: Older Projects
 giscus_comments: false
 related_publications: true
 ---

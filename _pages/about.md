@@ -26,40 +26,60 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
-## I'm Oz, a Wilson Fellow & Associate Scientist at Fermilab working on the intersection of Machine Learning and Particle Physics
+## I'm Oz, a Wilson Fellow & Associate Scientist at Fermilab working at the intersection of Machine Learning and Particle Physics
 
-I'm a member of the CMS experiment at the Large Hadron Collider hosted at CERN. 
-CMS studies the fundamental particles and forces which constitute all matter in
-the universe. 
-By studying these particle we hope help answer many questions we have about how
-nature works on its most fundamental level.
+I'm a member of the CMS experiment at the Large Hadron Collider at CERN.
+CMS studies the fundamental particles and forces which constitute all matter in the universe,
+hoping to answer our deepest open questions about the fundamental nature of the universe.
+We achieve this by colliding protons together at the highest energies possible,
+and then looking through the millions of collisions produced every second for signs
+of new fundamental interactions.
+**I'm especially excited by the ways Machine Learning & AI can push
+this science forward, letting us ask questions that simply weren't possible
+before.**
 
-We attempt to answer these questions by colliding protons at the highest energies possible, millions
-of times a second, and measuring the results of these collisions in
-sophisticated specialized detectors.
-We use this avalanche of data to measure the properties of the known fundamental particles,
-and to look for new particles which would play a part in answering open questions we have about the universe. 
+I completed my PhD at [Johns Hopkins University](https://jscholarship.library.jhu.edu/items/4e704274-b8f6-4199-845d-d8d7e3eb1fa7)
+in 2022, joined Fermilab as a postdoc, and in 2026 became a Wilson Fellow (a
+tenure-track associate scientist position). I also write for
+[ParticleBites](https://www.particlebites.com/?author=30), summarizing recent
+particle physics papers for a broad audience.
 
-**I am particularly excited by the ways in which Machine Learning & AI can help us in this grand quest!**
+### A few things I work on
 
-One focus of my current research are searches for new particles based on **ML-based anomaly detection**.
-There are many types of new particles which could be hiding in LHC data and is
-impossible to design analyses to search for all of them individually. 
-Anomaly detection is a new technique which searches through the data to find interesting 'anomalous' collisions containing new particles, without 
-reference to a specific model of what new particles to look for. 
-This allows searches with discovery potential to a much broader collection of new particles than traditional methods.  
-My ethos is that nature may be much stranger and more clever than us humans have guessed, so lets build strategies that are open to surprises. 
+<div class="row row-cols-1 row-cols-md-3 g-4 mt-1 mb-4">
+  <div class="col">
+    <a href="{{ '/projects/CASE/' | relative_url }}">
+      <div class="card h-100 hoverable">
+        <img src="{{ '/assets/img/CASE_evt_display.png' | relative_url }}" class="card-img-top" style="height: 165px; object-fit: cover;" alt="Anomaly detection" />
+        <div class="card-body">
+          <h5 class="card-title">Anomaly Detection</h5>
+          <p class="card-text">Model-agnostic searches that let the data itself flag unexpected new particles, instead of testing one theory at a time. I led the first such search at CMS.</p>
+        </div>
+      </div>
+    </a>
+  </div>
+  <div class="col">
+    <a href="{{ '/projects/CaloDiffusion/' | relative_url }}">
+      <div class="card h-100 hoverable">
+        <img src="{{ '/assets/img/calo_challenge.jpg' | relative_url }}" class="card-img-top" style="height: 165px; object-fit: cover;" alt="Generative models" />
+        <div class="card-body">
+          <h5 class="card-title">Applications of Generative Models</h5>
+          <p class="card-text">Harnessing modern generative AI --- diffusion models and normalizing flows --- to accelerate detector simulation and to perform high-dimensional, data-driven statistical inference.</p>
+        </div>
+      </div>
+    </a>
+  </div>
+  <div class="col">
+    <a href="{{ '/projects/FoundationModels/' | relative_url }}">
+      <div class="card h-100 hoverable">
+        <img src="{{ '/assets/img/foundation_aoj_detector.png' | relative_url }}" class="card-img-top" style="height: 165px; object-fit: cover;" alt="Foundation models" />
+        <div class="card-body">
+          <h5 class="card-title">Foundation Models</h5>
+          <p class="card-text">Pre-training large models on real LHC collision data, and mapping out how they scale, as a foundation for many downstream physics tasks.</p>
+        </div>
+      </div>
+    </a>
+  </div>
+</div>
 
-I also work on **generative models for fast simulations** of particle interactions in calorimeters,
-**ML-enhanced data-collection** algorithms (triggers), 
-and as well as various other new applications of ML & AI in particle physics. 
-
-
-I completed my PhD at Johns Hopkins University in 2022.
-My thesis was titled ["Searching for Anomalies in Proton-Proton Collisions at the Large Hadron Collider"](https://jscholarship.library.jhu.edu/items/4e704274-b8f6-4199-845d-d8d7e3eb1fa7).
-I then joined Fermilab as a postdoctoral researcher, and 2026 I became a Wilson Fellow, a tenure-track equivalent associate scientist position. 
-
-
-I sometimes write for [ParticleBites](https://www.particlebites.com/), which summarizes recent particle physics papers for a broad audience.
- You can read some of my recent posts
-[here](https://www.particlebites.com/?author=30). 
+You can find more on my [projects](/projects/) page.

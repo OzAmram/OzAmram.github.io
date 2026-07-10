@@ -4,7 +4,7 @@ title: Dijet Resonance Anomaly Search
 description: The first application of anomaly detection in CMS
 img: /assets/img/CASE_evt_display.png
 importance: 1
-category: work
+category: Anomaly Detection
 giscus_comments: false
 related_publications: true
 ---

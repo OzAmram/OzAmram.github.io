@@ -4,7 +4,7 @@ title: CaloDiffusion
 description: Diffusion models for LHC calorimeter simulations
 img: /assets/img/calo_challenge.jpg
 importance: 1
-category: work
+category: Applications of Generative Models
 giscus_comments: false
 related_publications: true
 ---

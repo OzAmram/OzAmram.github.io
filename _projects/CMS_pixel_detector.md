@@ -4,7 +4,7 @@ title: CMS Pixel Detector
 description: Calibration and Reconstruction
 img: /assets/img/CMS_highpileup.png
 importance: 2
-category: work
+category: Older Projects
 giscus_comments: true
 ---
 <div class="row">

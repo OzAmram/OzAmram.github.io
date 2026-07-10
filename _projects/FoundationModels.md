@@ -4,7 +4,7 @@ title: Foundation Models for Physics
 description: Pre-training on real LHC data, and how physics data scales
 img: /assets/img/foundation_aoj_detector.png
 importance: 1
-category: work
+category: Foundation Models
 giscus_comments: false
 related_publications: true
 ---

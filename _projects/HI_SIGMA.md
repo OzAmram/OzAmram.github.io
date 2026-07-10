@@ -3,8 +3,8 @@ layout: page
 title: HI-SIGMA
 description: Data-driven high-dimensional inference with generative models
 img: /assets/img/HI_SIGMA_sensitivity.png
-importance: 1
-category: work
+importance: 2
+category: Applications of Generative Models
 giscus_comments: false
 related_publications: true
 ---
