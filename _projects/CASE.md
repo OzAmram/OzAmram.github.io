@@ -48,7 +48,8 @@ CMS data (and convince CMS beaurocracy to publish a crazy new idea like this).
 </div>
 
 
-The title of the paper is '[Model-agnostic search for dijet resonances with anomalous jet substructure in proton-proton collisions at sqrt{s} = 13 TeV](https://cms-results.web.cern.ch/cms-results/public-results/preliminary-results/EXO-22-026/index.html)'.
+The title of the paper is 'Model-agnostic search for dijet resonances with anomalous jet substructure in proton-proton collisions at sqrt{s} = 13 TeV](https://arxiv.org/abs/2412.03747)', which is probably incomprehensible to non-experts.
+
 'Jets' are colimnated sprays of particles that show up in our detector
 originating from particles in the collision that interact with the strong nuclear force (ie quarks or gluons). 
 They are the most common type of signature produced in a proton-proton collider
@@ -146,7 +147,7 @@ While this is a standard practice for a null-result search, it required
 significantly more work than usual for this type of analysis. 
 First, I had to develop an entirely new method for calibrating the
 modeling of the substructure of exotic jets because prior methods were not applicable 
-(this led to an entirely [separate paper](https://cds.cern.ch/record/2924412)
+(this led to an entirely separate paper {% cite CMS:Lund %})
 on just this method).
 The other vary serious complication is that performance of the weakly supervised methods
 (aka signal efficiency) changes dramatically depending on the amount of
@@ -212,7 +213,3 @@ I'm also excited to build upon this work for new anomaly detection searches in C
 The autoencoder used as part of the TNT method, along with the jet substructure
 calibration technique I developed, was used to search for heavy resonances
 decaying to a Higgs and an anomalous jet {% cite Higgs_plus_X %}.
-A new class of searches I am interested in performing is looking
-for resonances produced in association with additional anomalous event activity, 
-we explored this in a phenomenological study {% cite  Res_plus_X %} . 
-

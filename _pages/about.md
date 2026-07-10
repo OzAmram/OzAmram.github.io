@@ -38,10 +38,9 @@ We attempt to answer these questions by colliding protons at the highest energie
 of times a second, and measuring the results of these collisions in
 sophisticated specialized detectors.
 We use this avalanche of data to measure the properties of the known fundamental particles,
-and to look for new particles which would play a part in answering some of these deep questions.
+and to look for new particles which would play a part in answering open questions we have about the universe. 
 
-**I am particularly interested in ways in which Machine Learning & AI can help us in this grand quest!**
-
+**I am particularly excited by the ways in which Machine Learning & AI can help us in this grand quest!**
 
 One focus of my current research are searches for new particles based on **ML-based anomaly detection**.
 There are many types of new particles which could be hiding in LHC data and is
