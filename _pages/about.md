@@ -38,11 +38,13 @@ of new fundamental interactions.
 this science forward, letting us ask questions that simply weren't possible
 before.**
 
+I have a [blog on substack](https://ozamram.substack.com/) where you can read my marginally-filtered thoughts. 
+I also used to write for [ParticleBites](https://www.particlebites.com/?author=30), summarizing recent
+particle physics papers for a broad audience.
+
 I completed my PhD at [Johns Hopkins University](https://jscholarship.library.jhu.edu/items/4e704274-b8f6-4199-845d-d8d7e3eb1fa7)
 in 2022, joined Fermilab as a postdoc, and in 2026 became a Wilson Fellow (a
-tenure-track associate scientist position). I also write for
-[ParticleBites](https://www.particlebites.com/?author=30), summarizing recent
-particle physics papers for a broad audience.
+tenure-track associate scientist position). 
 
 ### A few things I work on
 

@@ -1,7 +1,8 @@
 ---
 layout: externalpost
-title: non-physics blog
-redirect_url: 'https://ethicalanalysisblog.wordpress.com/'
-nav: false
+title: blog
+permalink: /blog/
+redirect_url: 'https://ozamram.substack.com/'
+nav: true
 order: 5
 ---
