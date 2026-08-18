@@ -88,7 +88,7 @@ Tag N' Train was one of the few entries able to correctly find the hidden
 signal!
 
 
-Tag N' Train was used as part of the [CMS anomaly detection search](CASE) that
+Tag N' Train was used as part of the [CMS anomaly detection search](/projects/CASE.html) that
 I led and performed very well!
 
 To read more about the method can check out our paper on Tag N' Train paper {% cite TNT %}

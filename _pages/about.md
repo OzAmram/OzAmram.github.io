@@ -50,7 +50,7 @@ tenure-track associate scientist position).
 
 <div class="row row-cols-1 row-cols-md-3 g-4 mt-1 mb-4">
   <div class="col">
-    <a href="{{ '/projects/CASE/' | relative_url }}">
+    <a href="{{ '/projects/CASE.html' | relative_url }}">
       <div class="card h-100 hoverable">
         <img src="{{ '/assets/img/CASE_evt_display.png' | relative_url }}" class="card-img-top" style="height: 165px; object-fit: cover;" alt="Anomaly detection" />
         <div class="card-body">
@@ -61,7 +61,7 @@ tenure-track associate scientist position).
     </a>
   </div>
   <div class="col">
-    <a href="{{ '/projects/CaloDiffusion/' | relative_url }}">
+    <a href="{{ '/projects/CaloDiffusion.html' | relative_url }}">
       <div class="card h-100 hoverable">
         <img src="{{ '/assets/img/calo_challenge.jpg' | relative_url }}" class="card-img-top" style="height: 165px; object-fit: cover;" alt="Generative models" />
         <div class="card-body">
@@ -72,7 +72,7 @@ tenure-track associate scientist position).
     </a>
   </div>
   <div class="col">
-    <a href="{{ '/projects/FoundationModels/' | relative_url }}">
+    <a href="{{ '/projects/FoundationModels.html' | relative_url }}">
       <div class="card h-100 hoverable">
         <img src="{{ '/assets/img/foundation_aoj_detector.png' | relative_url }}" class="card-img-top" style="height: 165px; object-fit: cover;" alt="Foundation models" />
         <div class="card-body">
