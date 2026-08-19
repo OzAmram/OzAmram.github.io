@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="680" viewBox="0 0 680 680" role="img">
+<title>Di-object plus X topology</title>
+<desc>Two proton beams collide; a resonance decays to two standard model objects while additional anomalous activity X is used to train an anomaly classifier.</desc>
+<style>
+text { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight: 500; fill: #2C2C2A; }
+</style>
+<defs>
+<marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+<path d="M2 1L8 5L2 9" fill="none" stroke="#888780" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</marker>
+</defs>
+
+<path d="M210 82 L210 66 L470 66 L470 82" fill="none" stroke="#888780" stroke-width="1.2"/>
+<text x="340" y="46" text-anchor="middle" font-size="26">di-object resonance</text>
+
+<line x1="340" y1="210" x2="231" y2="110" stroke="#D85A30" stroke-width="4" stroke-linecap="round"/>
+<polygon points="219,99 234.9,105.4 226.7,114.2" fill="#D85A30"/>
+<line x1="340" y1="210" x2="449" y2="110" stroke="#D85A30" stroke-width="4" stroke-linecap="round"/>
+<polygon points="461,99 453.3,114.2 445.1,105.4" fill="#D85A30"/>
+<text x="188" y="126" text-anchor="end" font-size="30">&#964; / &#956;</text>
+<text x="492" y="126" text-anchor="start" font-size="30">&#964; / &#956;</text>
+
+<path d="M340 322 L356 306 L324 288 L356 270 L324 252 L356 234 L324 222 L340 210" fill="none" stroke="#7F77DD" stroke-width="3" stroke-linejoin="round"/>
+
+<line x1="50" y1="330" x2="300" y2="330" stroke="#888780" stroke-width="5" stroke-linecap="round"/>
+<polygon points="322,330 298,320 298,340" fill="#888780"/>
+<line x1="630" y1="330" x2="380" y2="330" stroke="#888780" stroke-width="5" stroke-linecap="round"/>
+<polygon points="358,330 382,320 382,340" fill="#888780"/>
+<text x="46" y="310" text-anchor="start" font-size="26">p</text>
+<text x="634" y="310" text-anchor="end" font-size="26">p</text>
+
+<circle cx="340" cy="330" r="10" fill="#888780"/>
+<circle cx="340" cy="210" r="7" fill="#888780"/>
+
+<rect x="155" y="378" width="370" height="148" rx="12" fill="none" stroke="#888780" stroke-width="1.2" stroke-dasharray="6 4" opacity="0.7"/>
+
+<path d="M340 342 C312 372, 272 392, 236 424" fill="none" stroke="#1D9E75" stroke-width="2" stroke-linecap="round"/>
+<path d="M340 342 C326 376, 316 406, 300 450" fill="none" stroke="#1D9E75" stroke-width="2" stroke-linecap="round"/>
+<path d="M340 342 C346 380, 350 410, 356 460" fill="none" stroke="#1D9E75" stroke-width="2" stroke-linecap="round"/>
+<path d="M340 342 C362 372, 400 396, 434 428" fill="none" stroke="#1D9E75" stroke-width="2" stroke-linecap="round"/>
+<path d="M340 342 C370 378, 420 410, 466 450" fill="none" stroke="#1D9E75" stroke-width="2" stroke-linecap="round"/>
+<circle cx="236" cy="424" r="4" fill="#1D9E75"/>
+<circle cx="300" cy="450" r="4" fill="#1D9E75"/>
+<circle cx="356" cy="460" r="4" fill="#1D9E75"/>
+<circle cx="434" cy="428" r="4" fill="#1D9E75"/>
+<circle cx="466" cy="450" r="4" fill="#1D9E75"/>
+<text x="340" y="512" text-anchor="middle" font-size="26">X: extra event activity</text>
+
+<line x1="340" y1="530" x2="340" y2="566" stroke="#888780" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+<rect x="160" y="572" width="360" height="64" rx="8" fill="#EEEDFE" stroke="#534AB7" stroke-width="0.5"/>
+<text x="340" y="594" text-anchor="middle" dominant-baseline="central" font-size="22" fill="#3C3489">anomaly classifier</text>
+<text x="340" y="618" text-anchor="middle" dominant-baseline="central" font-size="17" font-weight="400" fill="#534AB7">trained on X, not the resonance</text>
+</svg>
