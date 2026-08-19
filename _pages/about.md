@@ -43,7 +43,8 @@ I also used to write for [ParticleBites](https://www.particlebites.com/), summar
 particle physics papers for a broad audience.
 
 I completed my PhD at [Johns Hopkins University](https://jscholarship.library.jhu.edu/items/4e704274-b8f6-4199-845d-d8d7e3eb1fa7)
-in 2022, joined Fermilab as a postdoc, and in 2026 became a Wilson Fellow (a
+in 2022. 
+I then joined Fermilab as a postdoc, and in 2026 became a Wilson Fellow (a
 tenure-track associate scientist position). 
 
 ### A few things I work on
