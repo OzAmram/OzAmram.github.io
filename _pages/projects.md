@@ -1,6 +1,6 @@
 ---
 layout: page
-title: projects
+title: Projects
 permalink: /projects/
 description: Some things I have worked on
 nav: true
@@ -12,6 +12,20 @@ display_categories:
   - Applications of Generative Models
   - Foundation Models
   - Older Projects
+
+category_descriptions:
+  Anomaly Detection: >
+    Model-agnostic searches that let the data itself flag unexpected new
+    particles, instead of testing one theory at a time.
+  Applications of Generative Models: >
+    Using diffusion models and normalizing flows to accelerate detector
+    simulation and to perform high-dimensional, data-driven inference.
+  Foundation Models: >
+    Pre-training large models on real LHC collision data, as a basis for many
+    downstream physics tasks.
+  Older Projects: >
+    Earlier work on detector calibration and precision electroweak
+    measurements.
 ---
 
 <!-- pages/projects.md -->
@@ -22,6 +36,10 @@ display_categories:
   <a id="{{ category | slugify }}" href=".#{{ category | slugify }}">
     <h2 class="category">{{ category }}</h2>
   </a>
+  {% assign category_blurb = page.category_descriptions[category] %}
+  {% if category_blurb %}
+    <p class="category-description">{{ category_blurb }}</p>
+  {% endif %}
   {% assign categorized_projects = site.projects | where: "category", category %}
   {% assign sorted_projects = categorized_projects | sort: "importance" %}
   <!-- Generate cards for each project -->
