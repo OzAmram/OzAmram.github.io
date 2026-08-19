@@ -178,6 +178,7 @@ Out of approximately 40 total submissions CaloDiffusion was in the top 2 of show
 (the other high quality submission, also based on diffusion, was released
 a year after CaloDiffusion). 
 
-Further improvements to CaloDiffusion are in progress, and we hope to apply the
-model to simulate the CMS HGCAL in the near future!
+Further improvements to CaloDiffusion are in progress, and we have since
+applied these ideas to simulating the [CMS HGCal](/projects/HGCal_GenAI.html),
+a far more challenging target than any of the CaloChallenge datasets.
 
