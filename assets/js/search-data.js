@@ -4,7 +4,7 @@ const ninja = document.querySelector('ninja-keys');
 // add the home and posts menu items
 ninja.data = [{
     id: "nav-about",
-    title: "about",
+    title: "About",
     section: "Navigation",
     handler: () => {
       window.location.href = "/";
@@ -17,21 +17,21 @@ ninja.data = [{
             window.location.href = "/cv/";
           },
         },{id: "nav-blog",
-          title: "blog",
+          title: "Blog",
           description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/blog/";
           },
         },{id: "nav-publications",
-          title: "publications",
+          title: "Publications",
           description: "Publications grouped by research area, in reverse chronological order.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
           },
         },{id: "nav-projects",
-          title: "projects",
+          title: "Projects",
           description: "Some things I have worked on",
           section: "Navigation",
           handler: () => {
@@ -95,11 +95,21 @@ ninja.data = [{
           description: "Pre-training on real LHC data, and how physics data scales",
           section: "Projects",handler: () => {
               window.location.href = "/projects/FoundationModels.html";
+            },},{id: "projects-generative-ai-for-hgcal",
+          title: 'Generative AI for HGCal',
+          description: "Benchmarking generative models as fast simulation for the CMS calorimeter upgrade",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/HGCal_GenAI.html";
             },},{id: "projects-hi-sigma",
           title: 'HI-SIGMA',
           description: "Data-driven high-dimensional inference with generative models",
           section: "Projects",handler: () => {
               window.location.href = "/projects/HI_SIGMA.html";
+            },},{id: "projects-di-object-x",
+          title: 'Di-Object + X',
+          description: "Unearthing a new class of anomaly detection signatures",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Res_plus_X.html";
             },},{id: "projects-tag-n-39-train",
           title: 'Tag N&amp;#39; Train',
           description: "A new method for anomaly detection at the LHC",
