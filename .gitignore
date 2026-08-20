@@ -13,3 +13,6 @@ assets/libs/
 node_modules/
 vendor
 .idea
+
+# personal notes, not part of the site
+citation_summary.md
