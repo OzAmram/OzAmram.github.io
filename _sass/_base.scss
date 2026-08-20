@@ -687,9 +687,9 @@ footer.sticky-bottom {
 
   .category-description {
     color: var(--global-text-color-light);
-    text-align: right;
+    text-align: left;
     max-width: 46rem;
-    margin: -0.5rem 0 1.5rem auto;
+    margin: -0.5rem auto 1.5rem 0;
     font-size: 0.95rem;
     line-height: 1.5;
   }
@@ -711,7 +711,7 @@ footer.sticky-bottom {
     padding-top: 0.5rem;
     margin-top: 2rem;
     margin-bottom: 1rem;
-    text-align: right;
+    text-align: left;
   }
 }
 

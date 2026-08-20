@@ -15,13 +15,13 @@ display_categories:
 
 category_descriptions:
   Anomaly Detection: >
-    Model-agnostic searches that let the data itself flag unexpected new
-    particles, instead of testing one theory at a time.
+    Model-agnostic searches that let the data itself flag new phenomena,
+    broadening our sensitivity to the unexpected.
   Applications of Generative Models: >
     Using diffusion models and normalizing flows to accelerate detector
     simulation and to perform high-dimensional, data-driven inference.
   Foundation Models: >
-    Pre-training large models on real LHC collision data, as a basis for many
+    Training large models on real LHC collision data, as a basis for many
     downstream physics tasks.
   Older Projects: >
     Earlier work on detector calibration and precision electroweak
