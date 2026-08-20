@@ -78,7 +78,7 @@ tenure-track associate scientist position).
         <img src="{{ '/assets/img/foundation_aoj_detector.png' | relative_url }}" class="card-img-top" style="height: 165px; object-fit: cover;" alt="Foundation models" />
         <div class="card-body">
           <h5 class="card-title">Foundation Models</h5>
-          <p class="card-text">Pre-training large models on real LHC collision data, and mapping out how they scale, as a foundation for many downstream physics tasks.</p>
+          <p class="card-text">Training large models on real LHC collision data, and mapping out how they scale, as a foundation for many downstream physics tasks.</p>
         </div>
       </div>
     </a>

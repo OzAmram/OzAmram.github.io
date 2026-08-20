@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Anomaly Detection in Di-Object + X
-description: Extending anomaly detection from jets to whole events
+title: Di-Object + X
+description: Unearthing a new class of anomaly detection signatures
 img: /assets/img/diobject_plus_x_thumbnail.png
 importance: 3
 category: Anomaly Detection
