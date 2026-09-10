@@ -4,7 +4,7 @@ title: Projects
 permalink: /projects/
 description: Some things I have worked on
 nav: true
-nav_order: 3
+nav_order: 4
 horizontal: false
 order: 2
 display_categories:

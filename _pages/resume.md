@@ -1,14 +1,14 @@
 ---
 layout: none
-title: Academic CV
-permalink: /cv/
+title: Resume
+permalink: /resume/
 nav: true
-nav_order: 2
+nav_order: 1
 ---
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head>
-        <title>Test Layout</title>
+        <title>Resume - Oz Amram</title>
         <style type="text/css">
             body, html
             {
@@ -23,7 +23,7 @@ nav_order: 2
     </head>
     <body>
         <div id="content">
-            <iframe width="100%" height="100%" frameborder="0" src="/assets/pdf/CV_Oz_Amram.pdf"></iframe>
+            <iframe width="100%" height="100%" frameborder="0" src="/assets/pdf/resume_Oz_Amram.pdf"></iframe>
         </div>
     </body>
 </html>

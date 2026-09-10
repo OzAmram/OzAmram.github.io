@@ -4,5 +4,5 @@ title: Blog
 permalink: /blog/
 redirect_url: 'https://ozamram.substack.com/'
 nav: true
-order: 5
+nav_order: 5
 ---
