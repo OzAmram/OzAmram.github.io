@@ -25,17 +25,16 @@ latest_posts:
 ---
 ## I'm Oz --- an ML + physics researcher at Fermilab, moving into AI safety
 
-I'm a Wilson Fellow and Associate Scientist at Fermilab and a member of the CMS
-experiment at the Large Hadron Collider. For the past several years my research
-has been on machine learning for particle physics: anomaly detection, generative
-models, and foundation models, mostly aimed at finding things in complex collider data
-that nobody knew to look for.
+I'm a Wilson Fellow and Associate Scientist (tenure-track, associate professor equivalent) at Fermilab 
+For the past several years my research has been on machine learning for particle physics: anomaly detection, generative
+models, and foundation models, mostly aimed at finding things in complex collider data that nobody knew to look for.
+This was mostly performed as a member of the CMS experiment at the Large Hadron Collider. 
 
 **I am now transitioning to AI safety research, and am actively looking for
 roles in the field.**
 
 The rapid increase in AI capabilities over the last year, and recent public misalignment incidents have convinced me AI safety is an urgent issue,
-and worth leaving my current research and tenure-track position behind for.
+and worth leaving my current research and position behind for.
 I believe I have the technical skills, research history and motivation 
 to be effective in alignment or interpretability research roles. 
 
