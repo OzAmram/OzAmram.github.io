@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Projects
+title: Physics Projects
 permalink: /projects/
-description: Some things I have worked on
+description: Things I worked on as a particle physicist
 nav: true
 nav_order: 4
 horizontal: false
