@@ -25,10 +25,10 @@ latest_posts:
 ---
 ## I'm Oz --- an AI safety researcher with a background in particle physics
 
-I am currently a fellow at [CBAI](https://www.cbai.ai/), working with Hadas Orgad. 
+I am currently a fellow at *[CBAI](https://www.cbai.ai/)*, working with Hadas Orgad. 
 
-My research interests revolve around the persona selection model, subliminal learning, and mechanistic interpretability. 
-You can read more on my [AI safety page](/ai-safety/).
+My research interests revolve around *personas, subliminal learning, and mechanistic interpretability*. 
+You can read about some of my projects on my [AI safety page](/ai-safety/).
 
 In my former physics life, I was a Wilson Fellow at [Fermilab](https://www.fnal.gov/), a tenure-track position equivalent to assistant professor, working on the CMS experiment at the Large Hadron Collider. 
 I joined Fermilab as a postdoc after completing my PhD in physics at Johns Hopkins University in 2022, and started the fellowship in 2026.
