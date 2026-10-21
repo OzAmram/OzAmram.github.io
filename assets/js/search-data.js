@@ -16,13 +16,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/resume/";
           },
-        },{id: "nav-academic-cv",
-          title: "Academic CV",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/cv/";
-          },
         },{id: "nav-publications",
           title: "Publications",
           description: "Publications grouped by research area, in reverse chronological order.",
@@ -30,9 +23,16 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "nav-projects",
-          title: "Projects",
-          description: "Some things I have worked on",
+        },{id: "nav-ai-safety-projects",
+          title: "AI Safety Projects",
+          description: "My current research in AI safety",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/ai-safety/";
+          },
+        },{id: "nav-physics-projects",
+          title: "Physics Projects",
+          description: "Things I worked on as a particle physicist",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
@@ -112,6 +112,11 @@ ninja.data = [{
           description: "Data-driven high-dimensional inference with generative models",
           section: "Projects",handler: () => {
               window.location.href = "/projects/HI_SIGMA.html";
+            },},{id: "projects-base-models-can-detect-hidden-intentions-that-prompted-classifiers-miss",
+          title: 'Base Models Can Detect Hidden Intentions that Prompted Classifiers Miss',
+          description: "Scoring a model&#39;s responses under a base model conditioned on a description of a hidden intention catches hidden prompts that prompted classifiers miss.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/PHLE.html";
             },},{id: "projects-di-object-x",
           title: 'Di-Object + X',
           description: "Unearthing a new class of anomaly detection signatures",
@@ -130,25 +135,11 @@ ninja.data = [{
           window.open("mailto:%6F%7A.%61%6D%72%61%6D@%67%6D%61%69%6C.%63%6F%6D", "_blank");
         },
       },{
-        id: 'social-inspire',
-        title: 'Inspire HEP',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://inspirehep.net/authors/1635150", "_blank");
-        },
-      },{
         id: 'social-github',
         title: 'GitHub',
         section: 'Socials',
         handler: () => {
           window.open("https://github.com/OzAmram", "_blank");
-        },
-      },{
-        id: 'social-bluesky',
-        title: 'Bluesky',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://bsky.app/profile/ozamram.bsky.social", "_blank");
         },
       },{
         id: 'social-x',
